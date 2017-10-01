@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+gcc calc.c -Wall -Wextra -o calc
+./calc $@
